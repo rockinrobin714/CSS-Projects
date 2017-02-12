@@ -3,14 +3,50 @@
 
 <head>
     <title>PSD to HTML5</title>
-    <meta charset='utf-8'> <!-- character encoding -->
-    <meta http-equiv='x-ua-compatible' content='IE=edge, chrome=1'> <!-- Display webpage in edge mode/IE in highest supposrted document mode -->
-    <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- Optimization for mobile devices -->
+    <meta charset='utf-8'>
+    <!-- character encoding -->
+    <meta http-equiv='x-ua-compatible' content='IE=edge, chrome=1'>
+    <!-- Display webpage in edge mode/IE in highest supposrted document mode -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <!-- Optimization for mobile devices -->
     <link rel='stylesheet' type='text/css' href='css/styles.css'> </head>
+<!-- For cross browser compatability-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js'></script>
 
 <body>
-    <h1>This is a test</h1>
+   
+   <section id="hero">
+       <div class='container'>
+           <div class="logo alignLeft">
+               <a href='/'><img src='img/logo.png' class='logo-id'/></a>
+           </div>
+       <nav class='navbar'>
+           <ul class='nav alignRight'>
+               <li><a href='/'>Home</a></li>
+               <li><a href='/'>Features</a></li>
+               <li><a href='/'>Download</a></li>
+               <li><a href='/'>Blog</a></li>
+               <li><a href='/'>Contact</a></li>
+           </ul>
+       </nav>
+       <div class="cta">
+           <div class="imgs">
+               <img src='img/iphone.png' class='iphone'/>
+           </div>
+       </div>
+       <div class="cta-info">
+           <h2>Chocolate Pudding Dessert Jelly</h2>
+           <p class='hero-paragraph'>Fruitcake donut gummies. Candy liquorice biscuit. Sugar plum jelly gummi bears brownie toffee cupcake caramels brownie cookie.</p>
+           <a href='/' class='cta-button'><img class='phone-icon' src='img/smallphone.png'>Download at the app store</a>
+       </div>
+    </div>
+   </section>
+   
+   
     <script src='js/jquery-3.1.1.min.js'></script>
     <script src='js/main.js'></script>
 </body>
+
 </html>
