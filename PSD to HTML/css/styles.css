@@ -335,6 +335,46 @@ h2 {
 }
 
 #nose {
-  background-image: url('../img/bgnose.png')  
+    background: url('../img/bgnose.png');
+    background-size: cover;
+    background-position: center; 
 }
+
+.download-info {
+    width: 50%;
+    padding: 200px 0;
+}
+
+#nose h2{
+    margin-bottom: 40px;
+    color: white;
+}
+
+#nose p {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'HelveticaNeue-Thin';
+    padding-bottom: 50px;
+}
+
+.download-btn {
+    padding: 15px;
+    background: #d9332d;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.download-btn:hover {
+    background: #c33934;
+    transition: 0.3s;
+}
+
+.reddish {
+    color: #f55150;
+}
+
+
 
