@@ -1,130 +1,292 @@
 /*Reset CSS begins*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
+
 /*Reset CSS ends*/
 
+
 /*Helper classes begin*/
+
 .alignLeft {
     float: left
 }
+
 .alignRight {
     float: right
 }
+
 .margin-bottom-10 {
     margin-bottom: 10;
 }
+
 .margin-bottom-20 {
     margin-bottom: 20;
 }
+
 .margin-bottom-30 {
     margin-bottom: 30;
 }
+
 .margin-bottom-40 {
     margin-bottom: 40;
 }
-strong, b {
+
+strong,
+b {
     font-weight: 700;
 }
-em, i {
+
+em,
+i {
     font-style: italic;
 }
-p, ul li, ol li {
+
+p,
+ul li,
+ol li {
     font-size: 16px;
     line-height: 23px;
     margin-bottom: 20px;
 }
+
+
 /*Helper classes end*/
+
+
 /* GENERAL */
 
 @font-face {
     font-family: 'HelveticaNeue-Thin';
     src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype');
 }
+
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
 }
 
-body {
-    font-family: 'HelveticaNeue-Thin', sans-serif;
-}
 #hero {
-    background-image: url(../img/hero-bg.png);
+    background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url('../img/hero-bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
 h2 {
     font-size: 52px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.nav li{
+.nav li {
     display: inline-block;
 }
+
 .nav li a {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 30px;
     padding-bottom: 3px;
-    border-bottom: 4px solid transparent;
+    border-bottom: 4px solid white transparent;
     transition: border-bottom 0.1s, color 0.1s;
 }
 
-.nav li a:hover {
-    border-bottom: 4px solid white;
-    transition: border-bottom 0.1s, color 0.1s;
+#hero h2 {
+    color:white;
+    margin-bottom: 40px
 }
 
+.cta {
+    display:inline-block;
+    margin-top: 90px;
+}
 
+.imgs {
+    float: right;
+    position: absolute;
+    right: -134px;
+}
 
+.iphone {
+    width: 85%;
+    position: relative;
+    margin-bottom: -240px;
+}
 
+.cta-info {
+    width:60%;
+    padding-right: 150px;
+    float: left;
+}
 
+.hero-paragraph {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'HelveticaNeue-thin';
+    color:white;
+    margin-bottom: 55px;
+}
+
+.cta-button {
+    padding: 23px 35px;
+    background: #282828;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #383787;
+    transition: 0.3s;
+}
+
+.phone-icon {
+    vertical-align: middle;
+    padding-right: 20px;
+}
