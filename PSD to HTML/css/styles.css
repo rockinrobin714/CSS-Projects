@@ -548,6 +548,48 @@ section.copyright p {
     .fb, .tw, .dr {
         margin-top: 20px;
     }
+    .navbar {
+        overflow: hidden;
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        display: block;
+    }
+    .burger-nav {
+        background: url(../img/hamburger.png) no-repeat 100% center;
+        display: block;
+        height: 33px;
+        width: 40px;
+        cursor: pointer;
+        float: right;
+        margin-bottom: 10px;
+    }
+    .container nav ul {
+        height: 0;
+        overflow: hidden;
+        background: #282828;
+        border-radius: 5px;
+        z-index: 1000;
+    }
+    .container nav ul.open {
+        height: auto;
+        clear: both;
+    }
+    .container nav ul li{
+        float: none;
+        text-align: right;
+        width: auto;
+        margin: 0;
+        display: block;
+    }
+    .container nav ul li a {
+        color: white;
+        padding: 10px;
+        display: block;
+    }
+    .container nav ul li a:hover {
+        border: none;
+    }
 }
     
 @media only screen and (max-width: 768px) {  
@@ -564,10 +606,8 @@ section.copyright p {
 @media only screen and (max-width: 700px) {
     .cr:after,
     .me:after {
-       
         display: none;
-}
-    
+    }
 }
     
     

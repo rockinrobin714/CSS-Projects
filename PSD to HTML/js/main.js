@@ -1,6 +1,10 @@
 $(document).ready(function () {
     new WOW().init();
     
+    $('.burger-nav').on('click', function(){
+        $('.container nav ul').toggleClass('open');
+    })
+    
     $('.js-wp-2').waypoint(function (direction) {
         $('.js-wp-2').addClass('animated slideInUp');
     }, {
