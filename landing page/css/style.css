@@ -67,3 +67,22 @@ html, body {
 #signup .btn:hover {
     background-color: rgba(37,165,82,1);
 }
+
+/*Media queries*/
+
+@media(max-width: 768px) {
+    #logo img {
+        width: 50%;
+    }
+    #counter .countdown{
+        font-size: 1.4em;
+    }
+    #icons .fa{
+        margin:10px 0 0 0;
+        font-size: 2em;
+    }
+}
+
+
+
+
