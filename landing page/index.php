@@ -1,4 +1,3 @@
-
 <?php
     if(isset($_POST('submit'))) {
         $from = $_POST('email');
