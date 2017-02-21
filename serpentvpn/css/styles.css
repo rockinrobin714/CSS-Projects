@@ -181,15 +181,23 @@ table {
 }
 
 .fat-col {
-    width: 55%;
+    width: 66%;
     float: left;
-    padding: 0px 45px;
+    padding: 0px 30px;
+    box-sizing: border-box;
 }
 .thin-col {
-    width: 23%;
+    width: 33%;
     float: left;
-    padding: 0px 47px;
+    padding: 0px 30px;
+    box-sizing: border-box;
 }
+.pic-col{
+    padding: 10px;
+    float: right;
+    box-sizing: border-box;
+    width: 33%;
+    }
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -217,6 +225,7 @@ h1 {
     font-size: 16px;
     line-height: 1.6em;
     margin-top:10px;
+
 }
 h2 {
     font-family: 'Open Sans', sans-serif;
@@ -268,12 +277,84 @@ hr {
 }
 
 /*Media queries*/
-@media only screen and (max-width: 1000px) {
-    .big-pic{
-        height:90%;
-        width: 90%;
+
+@media only screen and (max-width: 850px) {
+    #try-it {
+        display: none;
     }
-    thin-col {
+    #navbar img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 15px;
+    }
+    .nav-item {
+        padding-top: 70px;
+        font-size: 14px;
+    }
+    .fat-col {
+        float: right;
+        text-align: center;
+        width: 100%;
+    }
+    .thin-col {
+        width: 100%;
         
     }
+    .container {
+        width: 100%;
+    }
+    .pic-col {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .pic-col img {
+        width: 60%;
+        height: 60%;
+    }
+    #body-section-1, #body-section-2, #body-section-3 {
+        margin: 20px 0;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .fat-col p {
+        font-size: 16px;
+    }
+    .thin-col img {
+        float: left;
+    }
+    .thin-col h2, .thin-col p{
+        width: 70%;
+        float: right;
+        padding: 10px 0 0 20px;
+    }
+    .thin-col h2 {
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    .thin-col p {
+        font-size: 14px;
+    }
+    .footer-item {
+        position: relative;
+        width: 300px;
+        padding: 40px;
+        margin: 0 auto;
+    }
+    .footer-row {
+        display:block;
+        text-align: center;
+    }
+    .footer-row li {
+        padding: 20px;
+    }
+    .footer-row .flexrow {
+        justify-content: center;
+        -webkit-justify-content: center;
+    }
+
 }
