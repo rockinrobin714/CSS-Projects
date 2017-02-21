@@ -245,15 +245,15 @@ hr {
     line-height: 2em;
     list-style-type: disc;
     color: #666666;
-    margin-left: 30px;
+    list-style-position: inside;
     margin-top: 5px;
 }
 #body-section-3 li {
     font-family: 'Open Sans', sans-serif;
     line-height: 2em;
     list-style-image: url('../img/checkmark.svg');
+    list-style-position: inside;
     color: #666666;
-    margin-left: 30px;
     margin-top: 5px;
 }
 #body-section-3 {
@@ -312,8 +312,7 @@ hr {
         margin-bottom: 20px;
     }
     .pic-col img {
-        width: 60%;
-        height: 60%;
+        width: 200px
     }
     #body-section-1, #body-section-2, #body-section-3 {
         margin: 20px 0;
@@ -323,6 +322,7 @@ hr {
     }
     .fat-col p {
         font-size: 16px;
+        padding: 0 10px;
     }
     .thin-col img {
         float: left;
@@ -346,11 +346,13 @@ hr {
         margin: 0 auto;
     }
     .footer-row {
+        padding: 20px 0;
         display:block;
         text-align: center;
     }
     .footer-row li {
-        padding: 20px;
+        padding: 15px;
+        font-size: 14px;
     }
     .footer-row .flexrow {
         justify-content: center;
