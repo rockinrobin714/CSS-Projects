@@ -188,7 +188,7 @@ table {
 .thin-col {
     width: 23%;
     float: left;
-    padding: 0px 45px;
+    padding: 0px 47px;
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
@@ -262,4 +262,18 @@ hr {
 }
 #footer img {
     margin-left: 15px;
+}
+.clear {
+    clear: both;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 1000px) {
+    .big-pic{
+        height:90%;
+        width: 90%;
+    }
+    thin-col {
+        
+    }
 }
