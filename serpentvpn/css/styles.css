@@ -348,15 +348,17 @@ hr {
     .footer-row {
         padding: 20px 0;
         display:block;
-        text-align: center;
+        
+        margin-left: 40%;
     }
     .footer-row li {
         padding: 15px;
         font-size: 14px;
     }
     .footer-row .flexrow {
-        justify-content: center;
-        -webkit-justify-content: center;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        padding: 0;
     }
 
 }
