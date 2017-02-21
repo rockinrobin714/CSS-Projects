@@ -143,7 +143,6 @@ table {
 }
 #navbar {
     background-color: #F5F6F8;
-    width: 100%;
 }
 
 .container {
@@ -196,18 +195,18 @@ h1 {
     font-weight: 300;
     font-size: 30px;
     color: #333;
-}
-#body-section-1 {
-    margin-top: 50px;
-}
-#body-section-1 h1 {
     margin-bottom: 30px
 }
+#body-section-1 {
+    margin: 50px 0 100px;
+}
+
 .fat-col p {
     font-family: 'Open Sans', sans-serif;
     color: #666666;
     font-size: 18px;
     line-height: 1.6em;
+    margin-bottom: 10px;
 }
 .img-icon {
     margin: 40px 0 30px;
@@ -224,4 +223,43 @@ h2 {
     font-weight: 700;
     color: #333333;
     font-size: 16px;
+}
+hr {
+    width: 85%;
+    color: #D8D8D8;
+}
+#body-section-2 {
+    margin: 50px 0 100px;
+}
+#body-section-2 li {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2em;
+    list-style-type: disc;
+    color: #666666;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+#body-section-3 li {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2em;
+    list-style-image: url('../img/checkmark.svg');
+    color: #666666;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+#body-section-3 {
+    margin: 50px 0 100px;
+}
+#footer {
+   background-color: #3A3D40;
+    text-transform: uppercase;
+}
+.footer-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 30px 0;
+    color: white;
+}
+#footer img {
+    margin-left: 15px;
 }
