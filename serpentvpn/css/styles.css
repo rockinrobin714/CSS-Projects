@@ -132,6 +132,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+a {
+    text-decoration: none;
+}
 
 
 /*Reset CSS ends*/
@@ -167,7 +170,9 @@ table {
     font-size: 18px;
     padding: 30px 0;
 }
-
+a {
+    color: #666666;
+}
 #try-it {
     background-color: orange;
     color: white;
@@ -234,7 +239,7 @@ h2 {
     font-size: 16px;
 }
 hr {
-    width: 85%;
+    width: 80%;
     color: #D8D8D8;
 }
 #body-section-2 {
@@ -246,7 +251,7 @@ hr {
     list-style-type: disc;
     color: #666666;
     list-style-position: inside;
-    margin-top: 5px;
+    margin: 5px 0 0 10px;
 }
 #body-section-3 li {
     font-family: 'Open Sans', sans-serif;
@@ -266,7 +271,7 @@ hr {
 .footer-item {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    padding: 30px 0;
+    padding: 40px 0;
     color: white;
 }
 #footer img {
@@ -275,7 +280,9 @@ hr {
 .clear {
     clear: both;
 }
-
+#footer a {
+    color: white;
+}
 /*Media queries*/
 
 @media only screen and (max-width: 850px) {
@@ -349,13 +356,13 @@ hr {
         margin-left: 40%;
     }
     .footer-row li {
-        font-size: 14px;
+        font-size: 16px;
     }
     .footer-row .flexrow {
         justify-content: flex-start;
         -webkit-justify-content: flex-start;
         padding: 0;
-        margin-left: -15px
+        margin: 15px 0 0 -15px;
     }
 
 }
