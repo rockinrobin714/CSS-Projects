@@ -103,4 +103,54 @@ section.rooms {
 	}
 }
 
+// About us
+
+.about-us-gallery {
+	@include breakpoint(medium){
+		height: rem-calc(560);
+		position: relative;
+	}
+	@include breakpoint(medium){
+		height: rem-calc(420);
+		position: relative;
+	}
+	.empty {
+		@include breakpoint(medium){
+			height: rem-calc(560);
+	}
+		@include breakpoint(medium){
+			height: rem-calc(420);
+		}
+	}
+
+	div.content-about-us {
+		@include breakpoint(medium){
+			position: absolute;
+			top: rem-calc(20);
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+.blue-bg {
+	background-color:$primary-color;
+}
+h2.white {
+	color: $white;
+}
+
+.bar-image {
+	background-image: url(../assets/images/separators/small/separator02-image.jpg);
+	@include breakpoint(medium){
+		background-image: url(../assets/images/separators/medium/separator02-image.jpg);
+
+	}
+	@include breakpoint(large){
+		background-image: url(../assets/images/separators/large/separator02-image.jpg);
+	}
+}
+
+section.booking {
+	padding: rem-calc(15);
+}
 
