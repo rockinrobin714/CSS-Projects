@@ -1,6 +1,7 @@
 h2 {
 	color: $primary-color;
 	font-size: rem-calc(42);
+	margin: rem-calc(20 0);
 }
 .promo-video {
 	position: relative;
@@ -51,6 +52,7 @@ h2 {
 }
 
 section.rooms {
+	padding: rem-calc(30 0);
 	div.room-image {
 		position: relative;
 		.room-title{
@@ -77,6 +79,13 @@ section.rooms {
 	margin: rem-calc(20 0);
 }
 
-
+.separator-image {
+	height: 300px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.pool-image {
+	background-image: url(../assets/images/separators/large/separator01-image.jpg)
+}
 
 
