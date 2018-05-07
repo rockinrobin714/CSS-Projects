@@ -1,1 +1,3 @@
-document.getElementsByClassName('expand-collapse')[0].addEventListener('onclick', console.log('hi'), false);
+document.getElementsByClassName('expand-collapse')[0].addEventListener('click', function() {
+  document.getElementsByTagName('nav')[0].classList.toggle('expanded');
+});
